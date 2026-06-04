@@ -1,0 +1,6 @@
+{
+  "name": "Faculty Performance Evaluation",
+  "description": "An automated, web-based system for faculty tracking, scoring, and appraisal, computing the Institutional Development Index.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
