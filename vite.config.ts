@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/academic_index/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
