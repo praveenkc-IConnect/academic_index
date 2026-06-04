@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App'; // <-- Removed the curly braces
+import { AcademicModule } from './AcademicModule';
 import './index.css';
 
 const container = document.getElementById('root');
@@ -11,6 +11,6 @@ if (!container) {
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <App />
+    <AcademicModule />
   </React.StrictMode>
 );
